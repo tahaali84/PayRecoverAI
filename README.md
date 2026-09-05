@@ -50,3 +50,32 @@ Evidence Retrieval
 Recovery Recommendation
        ↓
 Revenue Recovery Insights
+
+
+                         PayRecoverAI
+                              │
+                ┌─────────────┴─────────────┐
+                │                           │
+         Transaction Data              User Input
+                │                           │
+                ↓                           ↓
+         Data Processing             Streamlit UI
+                │                           │
+                └─────────────┬─────────────┘
+                              ↓
+                   Payment Intelligence
+                              │
+              ┌───────────────┼───────────────┐
+              ↓               ↓               ↓
+        Root Cause          RAG          Knowledge Graph
+          Analysis        Retrieval
+              │               │               │
+              └───────────────┼───────────────┘
+                              ↓
+                         Groq + Qwen
+                              │
+                              ↓
+                  Recovery Recommendation
+                              │
+                              ↓
+                    Merchant Dashboard
