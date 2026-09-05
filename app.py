@@ -138,3 +138,4 @@ elif mode == "Transactions":
     methods = st.multiselect("Payment Method", sorted(df.payment_method.unique()), default=sorted(df.payment_method.unique()))
     filtered = df[df.status.isin(statuses) & df.payment_method.isin(methods)]
     st.dataframe(filtered, use_container_width=True, hide_index=True)
+
