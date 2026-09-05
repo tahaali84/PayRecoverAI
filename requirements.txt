@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+pandas
+numpy
+networkx
+pyvis
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-community
+sentence-transformers
+faiss-cpu
+protobuf
